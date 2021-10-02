@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #f1f1f1;
+  color: #0f141e;
+
+  font-size: 16px;
+  font-weight: normal;
+
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida   Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+
+  /* font: normal 16px 'Roboto', sans-serif; */
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: blue;
+}
+
+a:visited {
+  color: grey;
+}
+
+#avatar {
+  width: 200px;
+  border-radius: 11%;
+  box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.info {
+  display: flex;
+  margin: 10px 0;
+  
+}
+ 
+@media (max-width: 700px) {
+  .info {
+    display:block;
+    text-align: center;
+    
+  }
+}
+
+.info-text{
+  margin-left: 40px;
+
+}
+.info-text h4 {
+  margin-bottom:10px;
+
+}
+
+.info p {
+  color: #86898f;
+  margin: 10px 0;
+  /* font-style: italic; */
+  font-weight: bold;
+  text-decoration: none;
+  /* text-transform: uppercase; */
+  letter-spacing: 3px;
+  word-spacing: 2px;
+}
+
+/* Box Model */
+
+.container {
+  max-width: 75%;
+  margin: auto;
+  /* центрирует */
+  padding-top: 30px;
+}
+.social {
+  /* background: green;
+  padding: 15px;
+  border: 5px solid lightsteelblue; */
+  padding-top: 0px; 
+
+  /* border: 5px;
+
+  border-style: double dotted; */ */
+}
+
+
+.social h2,
+ul {
+  margin: 0; 
+}
+
+/* only to children */
+/* .box-model > div {
+  float: left;
+  background: black;
+  height: 200px;
+  border: 4px solid red;
+  width: 25%;
+  box-sizing: border-box; */
+/* } */
+
+.bg-yellow {
+  background: #fff9dc;
+}
+
+.bg-green {
+  background: #e5ffe7;
+}
+
+.bg-red {
+  background: #ffe5e5;
+}
+
+.card {
+  padding: 15px 20px;
+  /* background: turquoise; */
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.card h2 {
+  margin-bottom: 10px;
+}
+
+.list {
+  padding: 0 0px;
+  list-style: none;
+}
+
+.list li {
+  color: #86898f;
+  margin-bottom: 10px;
+  border-bottom: 1px solid grey;
+}
+
+.table {
+  width: 100%;
+}
+
+.table td {
+  padding-bottom: 10px;
+}
+/* псевдо- селектор  */
+table td:nth-child(2),
+table td:nth-child(3) {
+  /* выбирается каждая вторая ячейка. то есть получается второй столбец */
+  /* и третий */
+  color: #86898f;
+}
+.table tr:nth-child(odd) {
+  background: lightsteelblue;
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.link-list li {
+margin-bottom: 10px;
+border-bottom: 1px solid #ccc;
+padding-bottom: 5px;
+}
+.contact h2 {
+  text-align: center;
+}
+
+.form-group label{
+  display:block;
+  color:#86898f;
+  font-size: 14px;
+}
+
+.form-group input, 
+.form-group textarea{
+  width: 100%;
+  box-sizing:border-box;
+  border: none;
+  background:transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0px 10px ;
+  outline: none;
+  font-family: inherit;
+
+  
+}
+
+.row {
+  display:flex;
+
+  margin: 20px 0;
+  
+}
+
+.row > .form-group {
+  width: 50%;
+  
+}
+.row > .form-group:first-child{
+  margin-right: 20px;
+
+}
+
+.btn {
+  background-color: #111;
+  padding: 15px 20px;
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  border-radius: 4px;
+  
+}
+
+.btn:hover{
+  opacity: 0.9;
+}
+
+/* Position */
+/* 
+.position {
+border: 4px solid black;
+margin-top: 40px;
+padding: 20px 
+}
+
+.box{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: lightcoral;
+
+} */
