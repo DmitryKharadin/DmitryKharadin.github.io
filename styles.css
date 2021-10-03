@@ -33,9 +33,19 @@ a:visited {
   color: grey;
 }
 
+.picture {
+  width: 200px;
+  height: 178px;
+  
+  margin-bottom: 20px;
+  border-radius: 4%;
+  
+  
+}
 #avatar {
   width: 200px;
-  border-radius: 11%;
+  border-radius: 4%;
+  object-fit: fill ;
   box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
 }
 
@@ -46,11 +56,15 @@ a:visited {
 }
  
 @media (max-width: 700px) {
+  
   .info {
-    display:block;
+    flex-direction: column;
+    align-items: center;
     text-align: center;
     
   }
+
+  
 }
 
 .info-text{
@@ -146,8 +160,13 @@ ul {
   width: 100%;
 }
 
+table { 
+  border-collapse: separate;
+  border-spacing: 12px;
+}
+
 .table td {
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
 }
 /* псевдо- селектор  */
 table td:nth-child(2),
