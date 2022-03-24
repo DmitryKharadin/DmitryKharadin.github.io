@@ -232,7 +232,7 @@ padding-bottom: 5px;
 }
 
 .btn {
-  background-color: #111;
+  background-color: #f1f1f1;
   padding: 15px 20px;
   color: #fff;
   border: none;
@@ -240,11 +240,11 @@ padding-bottom: 5px;
   border-radius: 4px;
   
 }
-
+/* 
 .btn:hover{
   opacity: 0.9;
 }
-
+*/
 /* Position */
 /* 
 .position {
